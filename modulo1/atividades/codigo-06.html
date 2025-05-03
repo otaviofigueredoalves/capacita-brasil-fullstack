@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--ADIÇÃO DO VIEWPORT-->
+    <title>Site para Correção de Erros</title> <!--FECHAMENTO DE TAG-->
+  </head>
+  <body>
+    <header>
+      <h1>Corrija os Erros Desta Página</h1> <!--H1 DENTRO DO MAIN-->
+      <nav>
+        <ul>
+          <li><a href="#inicio">Home</a></li>
+          <!--FECHAMENTO DE TAG <li> e <a> -->
+          <li><a href="#servicos">Serviços</a></li>
+          <!--FECHAMENTO DE TAG <li> -->
+          <li><a href="#sobre">Sobre</a></li>
+          <!--FECHAMENTO DE TAG <li>-->
+          <li><a href="#contato">Contato</a></li>
+          <!--FECHAMENTO DE TAG <a>-->
+        </ul>
+      </nav>
+    </header> <!-- REPOSICIONAMENTO DO HEADER PARA ENGLOBAR OS ELEMENTOS CORRETOS-->
+
+    <main>
+      <section id="inicio">
+        <h2>Bem-vindo!</h2>
+        <p>Este site contém diversos erros para praticar correções.</p>
+        <!--FECHAMENTO DE TAG-->
+        <ul>
+          <li>HTML Básico</li>
+          <!--FECHAMENTO DE TAG-->
+          <li>Listas Ordenadas</li>
+          <!--FECHAMENTO DE TAG-->
+          <li>Semântica Web</li>
+          <!-- FECHAMENTO DE TAG-->
+        </ul>
+      </section>
+
+      <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <p>Veja o que oferecemos para ajudar você:</p>
+        <!--FECHAMENTO DO PARÁGRAFO-->
+        <ol>
+          <li>Consultorias</li>
+          <!-- FECHAMENTO DE TAG-->
+          <li>Workshops</li>
+          <!-- FECHAMENTO DE TAG-->
+          <li>Mentorias</li>
+          <!-- FECHAMENTO DE TAG-->
+        </ol>
+      </section>
+      <!--FECHAMENTO DA SECTION-->
+
+        
+      <aside>
+        <h3>Atualizações</h3>
+        <p>Novos serviços disponíveis a partir de julho!</p>
+        <!--FECHAMENTO DE TAG-->
+        <a href="#">Saiba mais</a>
+      </aside>
+
+      <section id="sobre">
+        <h2>Sobre a Gente</h2>
+        <!--FECHAMENTO DE TAG -->
+        <p>Somos apaixonados por ensinar programação.</p>
+        <ul>
+          <li>Experiência no mercado</li>
+          <!--FECHAMENTO DE TAG-->
+          <li>Equipe qualificada</li>
+          <!--FECHAMENTO DE TAG-->
+          <li>Resultados comprovados</li>
+          <!--FECHAMENTO DE TAG-->
+        </ul>
+      </section>
+
+      <aside id="updates">
+        <!--ADIÇÃO DO ID UPDATES-->
+        <h3>Depoimentos</h3>
+        <p>Leia o que nossos alunos falam sobre nossos cursos</p>
+        <!--FECHAMENTO DE TAG-->
+        <a href="#">Clique aqui</a>
+        <!-- FECHAMENTO DE TAG -->
+      </aside>
+
+      <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Nos mande uma mensagem:</p>
+        <!-- FECHAMENTO DE TAG -->
+        <ul>
+          <li>Email: contato@exemplo.com</li>
+          <!--FECHAMENTO DE TAG-->
+          <li>Telefone: (11) 99999-9999</li>
+          <!--FECHAMENTO DE TAG-->
+          <li>Instagram: @cursohtml</li>
+          <!-- FECHAMENTO DE TAG -->
+        </ul>
+        <form action="enviar.php" method="post">
+          <!--FECHAMENTO DA TAG INICIAL-->
+          <label for="nome">Nome:</label>
+          <!--FECHAMENTO DE TAG E ATRIBUTO for-->
+          <input type="text" name="nome" id="nome" />
+          <!--ATRIBUTO ID -->
+
+          <label for="email">E-mail</label>
+          <!--FECHAMENTO DE TAG E ATRIBUTO for-->
+          <input type="email" name="email" id="email" />
+          <!--FECHAMENTO DO INPUT | ID="EMAIL"-->
+
+          <div><label for="mensagem">Sua mensagem</label></div>
+          <!--TAG div PARA QUEBRA DE LINHA E PROPRIEDADE for-->
+          <textarea name="mensagem" id="mensagem" rows="5" cols="30"></textarea>
+          <!--FECHAMENTO DE TAG E PROPRIEDADE id-->
+
+          <div><input type="submit" value="Enviar" /></div>
+          <!--TAG DIV PARA QUEBRA DE LINHA DO INPUT E FECHAMENTO DE TAG INPUT-->
+        </form>
+      </section>
+      <!--FECHAMENTO DE TAG-->
+    </main>
+
+    <footer>
+      <p>© 2025 Curso HTML - Todos os direitos reservados</p>
+      <!--FECHAMENTO DA TAG-->
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <!--FECHAMENTO DAS TAGS-->
+          <li><a href="#servicos">Serviços</a></li>
+          <!--FECHAMENTO DAS TAGS-->
+          <li><a href="#sobre">Sobre</a></li>
+          <!--FECHAMENTO DAS TAGS-->
+          <li><a href="#contato">Contato</a></li>
+          <!--FECHAMENTO DAS TAGS-->
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
